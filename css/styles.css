@@ -28,3 +28,34 @@ color: #00000040;
 {
 color: #2196F3;
 }
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.section-title {
+color: #212121;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.benefits-title {
+    color: #212121;
+}
+.benefits-text {
+    color: #757575;
+}
