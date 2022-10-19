@@ -1,45 +1,55 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --secondary-text-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --shadow-color: #00000040;
+
+
+}
 body {
-    background-color: #FFFFFF;
-    color: #212121;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 .logo {
 color: #000000;
 }
 .logo-web {
-color: #2196F3;
+color: var(--accent-color);
 }
 .list {
 list-style: none;
 }
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus
 {
-color: #2196F3;
+color: var(--accent-color);
 }
 .contacts .link 
 {
-color: #00000040;
+color: var(--shadow-color);
 }
 .contacts .link:focus,
 .contacts .link:hover
 {
-color: #2196F3;
+color: var(--accent-color);
 }
 .hero {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--secondary-text-color);
 }
 .hero-button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
 }
 .section-title {
-color: #212121;
+color: var(--title-text-color);
 }
 .visually-hidden {
     position: absolute;
@@ -54,8 +64,48 @@ color: #212121;
     margin: -1px;
 }
 .benefits-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .benefits-text {
-    color: #757575;
+    color: var(--primary-text-color);
+}
+.team {
+    background-color: var(--shadow-color);
+}
+.team-title {
+   color: var(--title-text-color); 
+}
+.team-text {
+    color: var(--primary-text-color);
+}
+.footer {
+    background-color: var(--secondary-background-color);
+}
+.logo-studio {
+    color: var(--secondary-text-color);
+}
+.address .link-location {
+    color: var(--secondary-text-color);
+}
+.address .link {
+    color: #FFFFFF99;
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+.items .button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+.items .button:hover,
+.items .button:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+.content-title {
+    color: var(--title-text-color);
+}
+.content-text {
+    color: var(--primary-text-color);
 }
