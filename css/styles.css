@@ -55,7 +55,8 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
     background-color: #188CE8;
 }
-.section-title {
+.work-title,
+.team-title {
 color: var(--title-text-color);
 }
 .visually-hidden {
@@ -70,19 +71,19 @@ color: var(--title-text-color);
     clip-path: inset(50%);
     margin: -1px;
 }
-.benefits-title {
+.pluses-title {
     color: var(--title-text-color);
 }
-.benefits-text {
+.pluses-text {
     color: var(--primary-text-color);
 }
 .team {
     background-color: #F5F4FA;
 }
-.team-title {
+.workers-title {
    color: var(--title-text-color); 
 }
-.team-text {
+.workers-text {
     color: var(--primary-text-color);
 }
 .footer {
@@ -109,13 +110,13 @@ color: var(--title-text-color);
 {
     color: var(--accent-color);
 }
-.items-button {
+.list-button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
     border: none;
 }
-.items-button:hover,
-.items-button:focus {
+.list-button:hover,
+.list-button:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
 }
