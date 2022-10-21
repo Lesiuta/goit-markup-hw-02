@@ -40,6 +40,9 @@ list-style: none;
 .contacts-link:hover {
 color: var(--accent-color);
 }
+.site-nav .link.current {
+color: var(--accent-color);
+}
 .contacts-link {
     color: var(--primary-text-color);
     text-decoration: var(--primary-text-decoration);
