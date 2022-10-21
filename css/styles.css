@@ -5,6 +5,9 @@
     --secondary-text-color: #FFFFFF;
     --secondary-background-color: #2F303A;
     --primary-text-decoration: none;
+    --section-background-color: #F5F4FA;
+    --rectangle-background-color: #F5F4FA;
+    --black-color: #000000;
     }
 body {
     background-color: var(--secondary-text-color);
@@ -13,7 +16,7 @@ body {
     letter-spacing: 0.03em;
 }
 .logo {
-color: #000000;
+color: var(--black-color);
 text-decoration: var(--primary-text-decoration);
 font-family: "Raleway", "sans-serif";
 font-weight: 700;
@@ -109,7 +112,8 @@ color: var(--accent-color);
     line-height: 1.7;
 }
 .team {
-    background-color: #F5F4FA;
+    background-color: 
+    var(--section-background-color);
 }
 .workers-title {
     color: var(--title-text-color);
@@ -141,7 +145,7 @@ color: var(--accent-color);
     text-decoration: var(--primary-text-decoration);
 }
 .address-link {
-    color: #FFFFFF99;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: var(--primary-text-decoration);
 }
 .address-link:hover,
@@ -152,8 +156,9 @@ color: var(--accent-color);
 }
 .list-button {
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--rectangle-background-color);
     border: none;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
